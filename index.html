@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" href="Images/logo.png" />
+        <title>Varsha Impex</title>
+        
+        <!-- CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <link rel="stylesheet" href="resources/main.css">
+
+        <!-- Google Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        
+        <style>
+            .back-1 {
+                background-image: url('Images/s-4.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            .back-2 {
+                background-image: url('Images/s-3.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            .back-3 {
+                background-image: url('Images/s-5.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            .back-4 {
+                background-image: url('Images/s-1.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+            }
+            .curveUpColor, .curveDownColor {
+                fill: #A3E1FF;
+                stroke: #A3E1FF;
+                position: absolute;
+                left: 0;
+                z-index: 1;
+            }
+            .curveUpColor {
+                margin-top: -100px;
+            }
+            .card-icon{
+                font-size: 28px;
+                background: #BDE9FF;
+                width: 60px;
+                height: 60px;
+                text-align: center;
+                line-height: 60px !important;
+                border-radius: 50%;
+                transition: 0.3s linear;
+            }
+            .card:hover .card-icon{
+                background: none;
+                color: #BDE9FF;
+                transform: scale(1.6);
+            }
+        </style>
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: #A3E1FF">
+        <div class="container-fluid">
+            <a href="index.html">
+                <img src="Images/logo.png" alt="Logo" width="70" height="50" class="d-inline-block align-text-top">
+            </a>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <h2 class="site-title"><b>Varsha Impex</b></h2>
+                <h6 class="site-description">Diamond Industry</h6>	        
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" id="navbarSupportedContent" style="background-color: #A3E1FF">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Varsha Impex</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#work">Work</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <button class="scroll-top">
+        <div class="arrow up"></div>
+    </button>
+
+    <div class="back-1" id="home">
+        <div class="container text-center">
+            <div style="color: #000000; padding:200px 16px">
+                <h1><b>The Art of Diamond Manufacturing</b></h1>
+                <h2><b>From Rough to Refined</b></h2>
+                <h5>Our diamonds are more than just beautiful stones – they are a symbol of our dedication to excellence in every step of the manufacturing process. Our diamonds are a testament to the skill and care we put into every stage of manufacturing.</h5>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        <br><br><br><br>
+    </div>
+    <!-- CurveUp -->
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+    </svg>
+    <div style="background-color: #A3E1FF; padding:100px 16px" id="about">
+        <h3 class="w3-center w3-xxlarge">ABOUT THE COMPANY</h3>
+        <p class="w3-center w3-large">Key features of our company</p>
+        <div class="w3-row-padding w3-center" style="margin-top:64px">
+            <div class="w3-quarter">
+                <img src="Images/Business-person-presentation.png" height="100" width="100" style="margin-bottom: 15px;">
+                <p class="w3-xlarge"><b>Hard Work</b></p>
+                <p>We work hard and try to provide our customers with finest and rare quality diamonds.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Images/Business-person-interactive.png" height="100" width="100" style="margin-bottom: 15px;">
+                <p class="w3-xlarge"><b>Experienced work</b></p>
+                <p>We have experienced staff which provide with the best quality work.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Images/Business-dashboard.png" height="100" width="100" style="margin-bottom: 15px;">
+                <p class="w3-xlarge"><b>Passionate</b></p>
+                <p>We love our work and are passionate in making good quality diamonds.</p>
+            </div>
+            <div class="w3-quarter">
+                <img src="Images/certificate-svgrepo-com.svg" width="100" height="100" style="margin-bottom: 15px;">
+                <p class="w3-xlarge"><b>Certified Work</b></p>
+                <p>We provide certified diamonds from GIA and IGI.</p>
+            </div>
+        </div>
+    </div>
+    <!-- CurveDown -->
+    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+    
+    <div class="back-2" style="padding:200px 16px" id="work">
+        <div class="container text-center" style="color: whitesmoke;">
+            <h3 class="w3-center w3-xxlarge">OUR WORK</h3>
+            <p class="w3-center w3-large">What we do / Products & Services</p>
+            <br>
+            <div class="row">
+                <div class="col gy-4" style="width: 19rem;">
+                    <img src="Images/I-1.jpg" class="rounded" height="200">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Diamond Manufacturing</b></h3>
+                        <p class="card-text" style="font-size: 120%;">Design and process the raw stones in the factory to make a fine and attractive diamond.</p>
+                    </div>
+                </div>
+                <div class="col gy-4" style="width: 19rem;">
+                    <img src="Images/I-2.jpg" class="rounded" height="200">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Diamond Trading</b></h3>
+                        <p class="card-text" style="font-size: 120%;">Buy and Sell the finished and raw diamonds in the local as well as international market located in mumbai.</p>
+                    </div>
+                </div>
+                <div class="col gy-4" style="width: 19rem;">
+                    <img src="Images/I-3.jpg" class="rounded" height="200">
+                    <div class="card-body">
+                        <h3 class="card-title"><b>Diamond Export</b></h3>
+                        <p class="card-text" style="font-size: 120%;">We also provide export service for the finished diamonds in various part of world.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CurveUp -->
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+    </svg>
+    <div class="text-center" style="background-color: #A3E1FF; padding:100px 16px" id="team">
+        <h3 class="w3-center w3-xxlarge">THE TEAM</h3>
+        <p class="w3-center w3-large">The ones who runs this company</p>
+        <div class="w3-row-padding w3-grayscale" style="margin-top:64px; margin-left: 18%;">
+            <div class="w3-col m6 w3-margin-bottom">
+                <div class="w3-card-2" style="width: 20rem;">
+                    <img src="Images/prakash.jpeg" height="300" width="300">
+                    <div class="w3-container">
+                        <h3>Prakash Radadiya</h3>
+                        <p class="w3-opacity">CEO, Founder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-card-2" style="width: 20rem;">
+                    <img src="Images/dinesh.jpg" height="300" width="300">
+                    <div class="w3-container">
+                        <h3>Dinesh Radadiya</h3>
+                        <p class="w3-opacity">Manager, Co-Founder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CurveDown -->
+    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+
+    <div class="back-3" style="padding:150px 16px">
+        <div class="container text-center">
+            <br>
+            <div style="color: black; margin-bottom: 1cm;">
+                <h1><b>Photos & Videos</b></h1><br>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner rounded">
+                    <div class="carousel-item active">
+                        <img src="Images/front-1.jpeg" class="d-block w-100" alt="" height="600">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/front-2.jpeg" class="d-block w-100" alt="" height="600">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/front-3.jpg" class="d-block w-100" alt="" height="600">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Images/front-4.jpg" class="d-block w-100" alt="" height="600">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/W4N-B3Hbtmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/p3uDKObaFbY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CurveUp -->
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+    </svg>
+    <div style="background-color: #A3E1FF;" id=""></div>
+    <!-- CurveDown -->
+    <svg class="curveDownColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 0 C 50 100 80 100 100 0 Z"></path>
+    </svg>
+
+    <div class="back-4" style="padding:200px 16px; color: black ;" id="contact">
+        <div class="text-center">
+            <h3 class="w3-center w3-xxlarge" style="margin-bottom: 1cm; color: whitesmoke;"><b>GET IN TOUCH</b></h3>
+            <br> 
+            <div class="container">
+            <div class="row" style="margin-left: 2.5%;margin-bottom: 40px;">
+                <div class="col gy-4">
+                    <div class="card" style="height: 15rem; width: 25rem; background-color: #A3E1FF;">
+                        <div class="card-body" style="margin-top: 10%;">
+                            <i class="card-icon far fa-envelope"></i>
+                            <p class="w3-xlarge"><a href="mailto:varshaimpex4@gmail.com" style="text-decoration: none;">varshaimpex4@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gy-4">
+                    <div class="card" style="height: 15rem; width: 25rem; background-color: #A3E1FF;">
+                        <div class="card-body" style="margin-top: 10%;">
+                            <i class="card-icon fas fa-phone"></i>
+                            <p class="w3-xlarge">+91-9925417080</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col gy-4">
+                    <div class="card" style="height: 15rem; width: 25rem; background-color: #A3E1FF;">
+                        <div class="card-body" style="margin-top: 6%;">
+                            <i class="card-icon fas fa-map-marker-alt"></i>
+                            <p><a href="https://goo.gl/maps/uAP4ZPAb3yEHTaYAA" style="text-decoration: none;">First floor, office no 104, house no 1342, Sumangal Apartment, Jadakhadi, Mahidhar Pura, Surat, Gujarat, 395003.</a></p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="container mb-5 mt-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.7253897123596!2d72.8327784!3d21.203065199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04fcf051d26ff%3A0x389c1767671a9746!2sVarsha%20Impex!5e0!3m2!1sen!2sin!4v1674902082044!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- CurveUp -->
+    <svg class="curveUpColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <path d="M0 100 C 20 0 50 0 100 100 Z"></path>
+    </svg>
+    <div style="background-color: #A3E1FF;  padding:1px 16px">
+        <div class="container">
+            <h3><b>Varsha Impex</b></h3>
+        </div>
+        <div class="container">
+            <div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex">
+                            <h5><b>Useful Link</b></h5>
+                        </div>
+                        <div class="d-flex">
+                            <ul class="list-unstyled">
+                                <li><a href="index.html" style="text-decoration: none;">Home</a></li>
+                                <li><a href="#about" style="text-decoration: none;">About Us</a></li>
+                                <li><a href="#work" style="text-decoration: none;">Work</a></li>
+                                <li><a href="#team" style="text-decoration: none;">Team</a></li>
+                                <li><a href="#contact" style="text-decoration: none;">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex">
+                            <h5><b>Contact Us</b></h5>
+                        </div>
+                        <div class="d-flex">
+                            <ul class="list-unstyled">
+                                <li><a href="https://goo.gl/maps/uAP4ZPAb3yEHTaYAA" style="text-decoration: none;">First floor, office no 104, house no 1342,<br>Sumangal Apartment, Jadakhadi, Mahidhar Pura,<br>Surat, Gujarat, 395003.</a></li>
+                                <li><a href=""><br></a></li>
+                                <li><a href="" style="text-decoration: none;"><B>Phone:</B> +91-9925417080</a></li>
+                                <li><a href="mailto:varshaimpex4@gmail.com" style="text-decoration: none;"><B>Email: </B>varshaimpex4@gmail.com</a></li>
+                                <li><a href="https://goo.gl/maps/uAP4ZPAb3yEHTaYAA" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"><B>! GET DIRECTIONS</B></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer style="background-color: #A3E1FF;">
+        <div class="text-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col"></div>
+                    <div class="col-6">
+                        <h5>Powered by : Varsha Impex - Surat, Gujarat</h5>
+                    </div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="resources/main.js"></script>
+</body>
+</html>
