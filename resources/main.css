@@ -1,3 +1,28 @@
+.back-1 {
+    background-image: url('Images/s-4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.back-2 {
+    background-image: url('Images/s-3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.back-3 {
+    background-image: url('Images/s-5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.back-4 {
+    background-image: url('Images/s-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /*Back to top button*/
 ::-webkit-scrollbar {
 background: #000000;
